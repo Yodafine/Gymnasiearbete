@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav {
+  background-color: #ffffff;
+  color: #000000;
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 20px 0;
+}
+
+.nav > li {
+  display: inline-block;
+  padding: 0 25px 0 25px;
+  font-size: 16px;
+}
+
+.nav > li > a {
+
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav > li > a:hover {
+  color: #27D941;
+}
+
+.logo {
+  color: #000000;
+  float: left;
+  padding-left: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo > a:hover {
+  color: #27D941;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.banner > .banner-image {
+  width: 100%;
+  display: block;
+}
+
+/*CSS h1 start*/
+h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+}
+/*CSS h1 end*/
+
+/*CSS h2 start*/
+h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+/*CSS h2 end*/
+
+/*CSS paragraph start*/
+p {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+}
+/*CSS paragraph end*/
+
+
+
+/*CSS contact page start*/
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+/*CSS contact page end*/
